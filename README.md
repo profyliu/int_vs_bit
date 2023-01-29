@@ -1,5 +1,4 @@
-# int_vs_bit
-Compare integer and bitwise operations for pure binary data
+# Integer versus bitwise arithmetics in large-array AND-Count operations
 
 Storing a binary value as a 32-bit integer would waste 31 bits of the momery space. Boolean operations, such as (x and y), would require integer arithmetics or logical operations which could be done more efficiently via bitwise operations if the data is packed in bitblocks. 
 
