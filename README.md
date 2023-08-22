@@ -1,6 +1,6 @@
 # Integer versus bitwise arithmetics in large-array AND-Count operations
 
-Storing a binary value as a 32-bit integer would waste 31 bits of the momery space. Boolean operations, such as (x and y), would require integer arithmetics or logical operations which could be done more efficiently via bitwise operations if the data is packed in bitblocks. 
+Storing a binary value as a 32-bit integer would waste 31 bits of the memory space. Boolean operations, such as (x and y), would require integer arithmetics or logical operations which could be done more efficiently via bitwise operations if the data is packed in bitblocks. 
 
 This program demonstrates the time difference between integer and bitwise operations for the task of "And Count" on two binary vectors. The "And Count" task for binary vectors x and y is to calculate the element-wise boolean AND for x and y, then count the number of 1s in the result. 
 
